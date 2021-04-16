@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Aula CSS</title>
+
+    <style>
+        .botao-rosa{
+            background-color: #fe0096;
+            border-radius: 5px;
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+            font-weight: 700;
+            box-shadow: 3px 3px #cdcdcd;
+            margin: 10px;
+            /* padding-top: 8px; */
+            /* padding-bottom: 8px; */            
+            /* padding-left: 15px; */
+            /* padding-right: 15px; */
+           padding: 10px 20px; /* funciona igual o de cima */
+        }
+        .botao-rosa:hover{
+            padding: 15px 30px;
+        }
+
+        .botao-salmao{
+            background-color: #E57373;
+            text-transform: uppercase;
+            color: white;
+            padding: 10px;
+            border-radius: 2px;
+            letter-spacing: .5px;
+            -webkit-box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="renata.html">Renata</a></li>            
+            <li><a href="welinton.html">Welinton</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </div>
+    <div class="branco">
+        <h1>Aqui vai o conteúdo da página</h1>
+        <hr>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores soluta saepe omnis nobis assumenda nesciunt
+            ad tempore possimus ex molestias cumque, pariatur ea unde quae vel exercitationem quisquam velit! Sequi!
+        </p>
+        <div class="branco">
+            <a class="a-botao" href="contato.html" target="_blank">Outra página</a>
+        </div>
+        <div class="branco">
+            <a class="botao-rosa" href="#" target="_blank">Botão</a>
+        </div>
+        <div class="branco">
+            <a class="botao-salmao" href="#" target="_blank">Materialize</a>
+        </div>
+    </div>
+    <div>
+        <p>Desde 2021</p>
+    </div>
+</body>
+
+</html>
